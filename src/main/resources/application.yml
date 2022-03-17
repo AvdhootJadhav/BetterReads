@@ -6,8 +6,8 @@ spring:
       client:
         registration:
           github:
-            client-id: <client id>
-            client-secret: <client secret>
+            client-id: <client-id>
+            client-secret: <client-secret>
   data:
     cassandra:
       keyspace-name: main
@@ -28,8 +28,8 @@ datastax.astra:
 
 
 astra.db:
-    id: <dbid>
-    region: asia-south1
+    id: <db-id>
+    region: <region>
     keyspace: main
     application.token: <token>
 

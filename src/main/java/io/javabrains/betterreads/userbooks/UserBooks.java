@@ -14,11 +14,11 @@ public class UserBooks {
     @PrimaryKey
     private UserBooksPrimaryKey key;
 
-    @Column("started_Date")
+    @Column("started_date")
     @CassandraType(type = Name.DATE)
     private LocalDate startedDate;
     
-    @Column("completed_Date")
+    @Column("completed_date")
     @CassandraType(type = Name.DATE)
     private LocalDate completedDate;
 

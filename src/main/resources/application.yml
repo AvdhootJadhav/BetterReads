@@ -7,7 +7,7 @@ spring:
         registration:
           github:
             client-id: <client-id>
-            client-secret: <client-secret>
+            client-secret: <secret>
   data:
     cassandra:
       keyspace-name: main
